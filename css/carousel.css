@@ -93,6 +93,9 @@ body {
   letter-spacing: -1px;
 }
 
+.featurette-image {
+  margin-top: 30px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -130,6 +133,10 @@ body {
 
 @media (min-width: 992px) {
   .featurette-heading {
+    padding-top: 0;
     margin-top: 120px;
+  }
+  .col-lg-12 > .featurette-heading {
+    margin-top: 60px;
   }
 }

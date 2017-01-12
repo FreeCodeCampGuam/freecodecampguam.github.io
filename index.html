@@ -19,6 +19,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <!-- Prevent cache until the website is deployed -->
+  <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+  <META HTTP-EQUIV="Expires" CONTENT="-1">
+  <!-- Cache tags end -->
+
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="logos/fcc/favicon.ico">
@@ -72,7 +78,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-               <a class="logo-font navbar-brand hidden-xs header-text" href="index.html">FreeCodeCampGuam</a>
+              <a class="logo-font navbar-brand hidden-xs header-text" href="index.html">FreeCodeCampGuam</a>
               <a class="logo-font navbar-brand visible-xs-* hidden-sm hidden-md hidden-lg header-text" href="index.html">FCCG</a>
             </div>
           <div id="navbar" class="navbar-collapse collapse">
@@ -255,7 +261,7 @@
       <h2 class="featurette-heading">Contributors</h2>
       <p>List contributors here</p>
       <p class="pull-right"><a href="#">Back to top</a></p>
-      <p>&copy; FreeCodeCampGuam &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <p>&copy; FreeCodeCampGuam</p> <!-- &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
     </footer>
 
   </div>
@@ -279,7 +285,7 @@
   <script type="text/javascript">
     replaceJs({
       element: document.getElementById('replace'),
-      words: [".."," to start their career"," to start a hobby"/*," to connect with loved ones"*/," to build something amazing"," to land a job"," to feed their passion","",""]
+      words: [".."," to start their careers"," to start a hobby"/*," to connect with loved ones"*/," to build something amazing"," to land a job"," to feed their passion","",""]
     });
   </script>
 
